@@ -1,0 +1,571 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <meta name="description" content="By Student for Student! We are open to everyone, join us now" />
+    <meta name="MANISH SINGH MAHATO" content="By Student for Student" />
+    <link rel="icon" type="image/x-icon" href="https://i.postimg.cc/jjFs0f9c/Blue-Background-PNG.png" />
+
+    <style>
+      #loading-screen {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #fff; /* You can customize the background color */
+        z-index: 9999; /* Adjust the z-index to ensure it appears above other elements */
+        /* Add any other styling you desire */
+      }
+
+      #loading-content {
+        text-align: center;
+      }
+    </style>
+    <script>
+      window.addEventListener("load", function () {
+        var loadingScreen = document.getElementById("loading-screen");
+        loadingScreen.style.display = "none";
+      });
+    </script>
+
+    <title>MCQ-Phy-1 (2023/02/04)</title>
+
+    <!-- STYLE DIR-->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+    <link href="../Style Dir/style3.css" rel="stylesheet" />
+    <link href="../Style Dir/style1.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <!-- END OF STYLE DIR-->
+  </head>
+
+  <body id="page-top">
+    <!-- Page Wrapper -->
+    <div id="wrapper">
+      <!-- Sidebar -->
+
+      <ul class="navbar-nav sidebar sidebar-dark accordion" id="accordionSidebar">
+        <!-- Starting of sidebar -->
+
+        <li class="nav-item active">
+          <a class="nav-link" href="../index.html">
+            <img class="logo" src="https://i.postimg.cc/jjFs0f9c/Blue-Background-PNG.png" alt="" />
+            <hr class="sidebar-divider" />
+            <i class="fa fa-home"></i>
+            <span>Home Page</span></a
+          >
+        </li>
+        <!-- Divider -->
+        <hr class="sidebar-divider" />
+
+        <!-- Heading -->
+        <div class="sidebar-heading">Choose you subject (Quick Link)</div>
+
+        <!-- Main items-->
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#phy" data-toggle="collapse" aria-expanded="true" aria-controls="collapseUtilities">
+            <i class="fas fa-rocket"></i>
+            <span>Physics</span>
+          </a>
+          <div id="phy" class="collapse" aria-labelledby="phy" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header active">Grades: Physics</h6>
+              <a class="collapse-item" href="PHYSICS/phy-grade-xi.html">Grade XI</a>
+              <a class="collapse-item" href="PHYSICS/phy-grade-xii.html">Grade XII<small> Not Available</small></a>
+              <a class="collapse-item" href="PHYSICS/phy-book.html">Books</a>
+            </div>
+          </div>
+        </li>
+
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#mat" data-toggle="collapse" aria-expanded="true" aria-controls="collapseUtilities">
+            <i class="fas fa-calculator"></i>
+            <span>Math</span>
+          </a>
+          <div id="mat" class="collapse" aria-labelledby="mat" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Grades: MATHS</h6>
+              <a class="collapse-item" href="mat-grade-xi.html">Grade XI <small>Not avilable</small></a>
+              <a class="collapse-item" href="mat-grade-xii.html">Grade XII<small> Not Available</small></a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#chm" data-toggle="collapse" aria-expanded="true" aria-controls="collapseUtilities">
+            <i class="fas fa-flask"></i>
+            <span>Chemistry</span>
+          </a>
+          <div id="chm" class="collapse" aria-labelledby="collapseUtilities" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Grades: Chemis...</h6>
+              <a class="collapse-item" href="chm-grade-xi.html">Grade XI<small> Not Available</small></a>
+              <a class="collapse-item" href="chm-grade-xii.html">Grade XII<small> Not Available</small></a
+              ><a class="collapse-item" href="chm-lab.html">Lab File-1</a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#cop" data-toggle="collapse" aria-expanded="true" aria-controls="collapseUtilities">
+            <i class="fas fa-desktop"></i>
+            <span>Computer</span>
+          </a>
+          <div id="cop" class="collapse" aria-labelledby="collapseUtilities" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Grades: Computer</h6>
+              <a class="collapse-item" href="   cop-grade-xi.html">Grade XI</a>
+              <a class="collapse-item" href="cop-grade-xii.html">Grade XII<small> Not Available</small></a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#zoo" data-toggle="collapse" aria-expanded="true" aria-controls="collapseUtilities">
+            <i class="fas fa-frog"></i>
+            <span>Zoology</span>
+          </a>
+          <div id="zoo" class="collapse" aria-labelledby="collapseUtilities" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Grades: Zoology</h6>
+              <a class="collapse-item" href="zoo-grade-xi.html">Grade XI<small> Not Available</small></a>
+              <a class="collapse-item" href="zoo-grade-xii.html">Grade XII<small> Not Available</small></a>
+            </div>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#bot" data-toggle="collapse" aria-expanded="true" aria-controls="collapseUtilities">
+            <i class="fas fa-seedling"></i>
+            <span>Botany</span>
+          </a>
+          <div id="bot" class="collapse" aria-labelledby="collapseUtilities" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">Grades: Botany</h6>
+              <a class="collapse-item" href="bot-grade-xi.html">Grade XI<small> Not Available</small></a>
+              <a class="collapse-item" href="bot-grade-xii.html">Grade XII<small> Not Available</small></a>
+            </div>
+          </div>
+        </li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider" />
+
+        <!-- Heading -->
+        <div class="sidebar-heading">Management (COMING SOON)</div>
+
+        <!-- Nav Item - Pages Collapse Menu -->
+        <li class="nav-item">
+          <a class="nav-link collapsed" href="#" data-toggle="collapse" data-target="#collapsePages" aria-expanded="true" aria-controls="collapsePages">
+            <i class="fas fa-fw fa-folder"></i>
+            <span>Bussines Math</span>
+          </a>
+          <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
+            <div class="bg-white py-2 collapse-inner rounded">
+              <h6 class="collapse-header">We are going to lunch <br />soon for this faculty, <br />Wants to contribute? <br />Mail us.</h6>
+            </div>
+          </div>
+        </li>
+
+        <!-- Divider -->
+        <hr class="sidebar-divider d-none d-md-block" />
+
+        <div class="text-center d-none d-md-inline">
+          <button class="rounded-circle border-0" id="sidebarToggle"></button>
+        </div>
+
+        <!-- Sidebar Message -->
+
+        <li class="nav-item mb-3">
+          <div class="sidebar-card d-none d-lg-flex">
+            <img class="sidebar-card-illustration mb-2" src="https://i.postimg.cc/q7Z18qRN/Stable-rocket.gif" alt="..." />
+
+            <p class="text-center mb-2">
+              <strong>Quote of the Day</strong><br />
+              It is in your hands to create a better world for all who live in it.
+            </p>
+          </div>
+        </li>
+      </ul>
+      <!-- End of Sidebar -->
+
+      <!-- Content Wrapper -->
+      <div id="content-wrapper" class="d-flex flex-column">
+        <!-- Main Content -->
+        <div id="content">
+          <!-- Topbar -->
+          <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
+            <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
+              <i class="fa fa-bars"></i>
+            </button>
+
+            <!-- Topbar Search -->
+            <form class="d-none d-sm-inline-block form-inline mr-auto ml-md-3 my-2 my-md-0 mw-100 navbar-search">
+              <div class="input-group">
+                <input type="text" class="form-control bg-light border-0 small" placeholder="SEARCH COMING SOON." id="searchInput" />
+                <div class="input-group-append">
+                  <button class="btn btn-primary" type="button">
+                    <i class="fas fa-search fa-sm"></i>
+                  </button>
+                </div>
+              </div>
+              <div id="searchResults"></div>
+            </form>
+
+            <!-- Topbar Navbar -->
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item dropdown no-arrow d-sm-none">
+                <a class="nav-link dropdown-toggle" href="#" id="searchDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <i class="fas fa-search fa-fw"></i>
+                </a>
+                <!-- Dropdown - Messages -->
+                <div class="dropdown-menu dropdown-menu-right p-3 shadow animated--grow-in" aria-labelledby="searchDropdown">
+                  <form class="form-inline mr-auto w-100 navbar-search">
+                    <div class="input-group">
+                      <input type="text" class="form-control bg-light border-0 small" placeholder="SEARCH COMING SOON." id="searchInput" />
+                      <div class="input-group-append">
+                        <button class="btn btn-primary" type="button">
+                          <i class="fas fa-search fa-sm"></i>
+                        </button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+                <div id="searchResults"></div>
+              </li>
+
+              <li class="no-arrow nav-icon">
+                <a href="about_us.html" class="btn btn-primary btn-icon-split">
+                  <span class="icon text-white-50"> <i class="fas fa-child"></i></span>
+                  <span class="text fw-bold">About us</span>
+                </a>
+              </li>
+            </ul>
+          </nav>
+          <!-- End of Topbar -->
+          <!--Main Contain-->
+          <div class="container-fluid">
+            <div id="np_ widget_wiz1" widget="day-sm" class="nep-wiz" style="width: 300px"></div>
+            <script async src="https://nepalipatro.com.np/np-widgets/nepalipatro.js" id="wiz1"></script>
+
+            <h3>MCQ on Physics</h3>
+            <br />
+
+            <!-- MCQ -->
+            <div class="row">
+              <div class="container-fluid card backimage3" style="padding: 5%">
+                <form id="quizForm">
+                  <!-- Question 1 -->
+                  <div class="question">
+                    <h4>
+                      1) A particle has a velocity U towards east at T=0. Its acceleration is towards wesst and is constant. Let X<sub>A</sub> and X<sub>B</sub> be the magnitude of displacements in
+                      the first 10 seconds and the next 10 seconds
+                    </h4>
+                    <input type="radio" name="q1" value="option1" data-correct="false" /> X<sub>A</sub> < X<sub>B</sub><br />
+                    <input type="radio" name="q1" value="option2" data-correct="true" /> the information is insufficient to decide the relation<br />
+                    <input type="radio" name="q1" value="option3" data-correct="false" /> X<sub>A</sub> = X<sub>B</sub> <br />
+                  </div>
+                  <br />
+
+                  <!-- Question 2 -->
+                  <div class="question">
+                    <h4>2) A stone is released from an elevator goging up with an acceleration A of the stone after the relesse is</h4>
+                    <input type="radio" name="q2" value="option1" data-correct="true" /> G downward <br />
+                    <input type="radio" name="q2" value="option2" data-correct="false" /> A upward<br />
+                    <input type="radio" name="q2" value="option3" data-correct="false" /> (G-A) downward<br />
+                  </div>
+                  <br />
+                  <!-- Question 3 -->
+                  <div class="question">
+                    <h4>3) Cosider the motion of the tip of the minute hand of a clock</h4>
+                    <input type="radio" name="q3" value="option1" data-correct="false" /> the distance covered is zero<br />
+                    <input type="radio" name="q3" value="option2" data-correct="false" /> the average speed is zero<br />
+                    <input type="radio" name="q3" value="option3" data-correct="true" /> the displacement is zero<br />
+                  </div>
+
+                  <br />
+                  <!-- Question 4 -->
+                  <div class="question">
+                    <h4>4) An object may have</h4>
+                    <input type="radio" name="q4" value="option1" data-correct="false" /> varying speed without having varying velocity<br />
+                    <input type="radio" name="q4" value="option2" data-correct="false" /> non zero acceleration without having varying velocity<br />
+                    <input type="radio" name="q4" value="option3" data-correct="true" /> varying velocity without having varying speed<br />
+                  </div>
+
+                  <br />
+                  <!-- Question 5 -->
+                  <div class="question">
+                    <h4>5) The velocity of particle is zero at t=0</h4>
+                    <input type="radio" name="q5" value="option1" data-correct="false" /> The acceleration at t=0 must be zero.<br />
+                    <input type="radio" name="q5" value="option2" data-correct="true" /> If the speed is zero from t=0 to t=10s the acceleration is also zero in this interval.<br />
+                    <input type="radio" name="q5" value="option3" data-correct="false" /> All of the above.<br />
+                  </div>
+
+                  <br />
+                  <!-- Question 6 -->
+                  <div class="question">
+                    <h4>6) A particle is going in spiral path with constant speed.</h4>
+                    <input type="radio" name="q6" value="option1" data-correct="true" /> The magnitude of acceleration is constant<br />
+                    <input type="radio" name="q6" value="option2" data-correct="false" /> The velocity of the particle is constant<br />
+                    <input type="radio" name="q6" value="option3" data-correct="false" /> The acceleration of the particle is constant<br />
+                  </div>
+
+                  <br />
+                  <!-- Question 7 -->
+                  <div class="question">
+                    <h4>7) A block of mass M slides down a smooth vetical circular track. During the motion, the block is in</h4>
+                    <input type="radio" name="q7" value="option1" data-correct="false" /> vertical equilibrium<br />
+                    <input type="radio" name="q7" value="option2" data-correct="false" /> horizontal equlibrium<br />
+                    <input type="radio" name="q7" value="option3" data-correct="true" /> none of these<br />
+                  </div>
+
+                  <br />
+                  <!-- Question 8 -->
+                  <div class="question">
+                    <h4>
+                      8) The acceleration of moon with respect to earth is 0.0027 m s<sup>-2</sup> and the acceleration of an apple fallling on earth's surface is about 10 m s<sup>-2</sup>. Assume
+                      that the radius of moon is one forth of the earth's radus. if the moon is stooped for an instant and relesed, it will fall towards the earth the earth. The initial acceleration
+                      of the moon towards the earth will be
+                    </h4>
+                    <input type="radio" name="q8" value="option1" data-correct="false" /> 10 m s<sup>-2</sup><br />
+                    <input type="radio" name="q8" value="option2" data-correct="true" /> 6.4 m s<sup>-2</sup><br />
+                    <input type="radio" name="q8" value="option3" data-correct="false" /> 0.0027 m s<sup>-2</sup><br />
+                  </div>
+
+                  <br />
+                  <!-- Question 9 -->
+                  <div class="question">
+                    <h4>9) Inside a uniform spherical shell</h4>
+                    <input type="radio" name="q9" value="option1" data-correct="false" /> the gravitational potential is zero<br />
+                    <input type="radio" name="q9" value="option2" data-correct="true" /> the gravitational potential is same everywhere <br />
+                    <input type="radio" name="q9" value="option3" data-correct="false" /> the gravitational field is more than that of potential <br />
+                  </div>
+
+                  <br />
+                  <!-- Question 10 -->
+                  <div class="question">
+                    <h4>10) A barometer keot in an elevator accelerating upward reads 76 cm. the air pressure in the elevator is</h4>
+                    <input type="radio" name="q10" value="option1" data-correct="true" /> > 76 cm<br />
+                    <input type="radio" name="q10" value="option2" data-correct="false" /> 76cm<br />
+                    <input type="radio" name="q10" value="option3" data-correct="false" /> < 76cm <br />
+                  </div>
+
+                  <br />
+                  <!-- Question 11 -->
+                  <div class="question">
+                    <h4>11) Which of the folloing is mechnical wave ?</h4>
+                    <input type="radio" name="q11" value="option1" data-correct="false" /> radio wave<br />
+                    <input type="radio" name="q11" value="option2" data-correct="true" /> sound wave<br />
+                    <input type="radio" name="q11" value="option3" data-correct="false" /> light wave<br />
+                  </div>
+
+                  <br />
+                  <!-- Question 12 -->
+                  <div class="question">
+                    <h4>12) The size of an object as percevied by an eye depends primarily on</h4>
+                    <input type="radio" name="q12" value="option1" data-correct="true" /> size of the image formed on the retina<br />
+                    <input type="radio" name="q12" value="option2" data-correct="false" /> distance of the object frome eye<br />
+                    <input type="radio" name="q12" value="option3" data-correct="false" /> aperture of pupil<br />
+                  </div>
+
+                  <br />
+                  <!-- Question 13 -->
+                  <div class="question">
+                    <h4>13) When we see an object, the image formed on retina is</h4>
+                    <input type="radio" name="q13" value="option1" data-correct="false" /> erect<br />
+                    <input type="radio" name="q13" value="option2" data-correct="false" /> virtual<br />
+                    <input type="radio" name="q13" value="option3" data-correct="true" /> real<br />
+                  </div>
+
+                  <br />
+                  <!-- Question 13 -->
+                  <div class="question">
+                    <h4>13) If a glass prisim is dipped in water, its dispersive power</h4>
+                    <input type="radio" name="q6" value="option1" data-correct="true" /> decreases<br />
+                    <input type="radio" name="q6" value="option2" data-correct="false" /> increases<br />
+                    <input type="radio" name="q6" value="option3" data-correct="false" /> doesnot change<br />
+                  </div>
+
+                  <br />
+                  <!-- Question 14 -->
+                  <div class="question">
+                    <h4>14) The focal length of a converging lene are f<sub>v</sub> and f<sub>r</sub> for violet and red llight respectively.</h4>
+                    <input type="radio" name="q14" value="option1" data-correct="true" /> f<sub>v</sub> < f<sub>r</sub><br />
+                    <input type="radio" name="q14" value="option2" data-correct="false" /> f<sub>v</sub> = f<sub>r</sub><br />
+                    <input type="radio" name="q14" value="option3" data-correct="false" /> f<sub>v</sub> > f<sub>r</sub><br />
+                  </div>
+
+                  <br />
+                  <!-- Question 15 -->
+                  <div class="question">
+                    <h4>15) As the wavelength is incresed from violet to red, the lumionoosity</h4>
+                    <input type="radio" name="q15" value="option1" data-correct="false" /> continuously increases<br />
+                    <input type="radio" name="q15" value="option2" data-correct="false" /> decreases then increses<br />
+                    <input type="radio" name="q15" value="option3" data-correct="true" /> increases then decreases<br />
+                  </div>
+
+                  <br />
+                  <!-- Question 16 -->
+                  <div class="question">
+                    <h4>16) Newtons first law of motion gives the concept of:</h4>
+                    <input type="radio" name="q16" value="option1" data-correct="true" /> Inertia<br />
+                    <input type="radio" name="q16" value="option2" data-correct="false" /> Force<br />
+                    <input type="radio" name="q16" value="option3" data-correct="false" /> Momentum<br />
+                  </div>
+
+                  <br />
+                  <!-- Question 17 -->
+                  <div class="question">
+                    <h4>17) The dimensional formulae of impulse is:</h4>
+                    <input type="radio" name="q17" value="option1" data-correct="false" /> [M<sup>0</sup>L<sup>0</sup>T<sup>-2</sup>]<br />
+                    <input type="radio" name="q17" value="option2" data-correct="true" /> [M<sup>0</sup>L<sup>0</sup>T<sup>-1</sup>]<br />
+                    <input type="radio" name="q17" value="option3" data-correct="false" /> [M<sup>0</sup>L<sup>2</sup>T<sup>-1</sup>]<br />
+                  </div>
+
+                  <br />
+                  <br />
+                  <!-- Question 18 -->
+                  <div class="question">
+                    <h4>18) A metallic rod at room temperature of 77<sup>0</sup>C radiattes at the rate of 10W. If its temperature is increased to 227<sup>0</sup>C, it will radiate at rate of:</h4>
+                    <input type="radio" name="q18" value="option1" data-correct="true" /> 42W<br />
+                    <input type="radio" name="q18" value="option2" data-correct="false" /> (277/77)x10W<br />
+                    <input type="radio" name="q18" value="option3" data-correct="false" /> 160W<br />
+                  </div>
+
+                  <br />
+                  <br />
+                  <!-- Question 19 -->
+                  <div class="question">
+                    <h4>19) The coefficient of linear expansion depends upon:</h4>
+                    <input type="radio" name="q19" value="option1" data-correct="false" /> Initial length<br />
+                    <input type="radio" name="q19" value="option2" data-correct="true" /> Nature of substance<br />
+                    <input type="radio" name="q19" value="option3" data-correct="false" /> Change in length<br />
+                  </div>
+
+                  <br />
+                  <br />
+                  <!-- Question 20 -->
+                  <div class="question">
+                    <h4>20) Which of the following shows the maximum thermal expansion?</h4>
+                    <input type="radio" name="q20" value="option1" data-correct="false" /> Water<br />
+                    <input type="radio" name="q20" value="option2" data-correct="true" /> Hydrogen gas<br />
+                    <input type="radio" name="q20" value="option3" data-correct="false" /> Aluminium rod<br />
+                  </div>
+
+                  <br />
+                  <br />
+                  <!-- Question 21 -->
+                  <div class="question">
+                    <h4>21) Two bodies will be in thermal equlibrium if they have same:</h4>
+                    <input type="radio" name="q21" value="option1" data-correct="false" /> Specific heat<br />
+                    <input type="radio" name="q21" value="option2" data-correct="false" /> Heat energy<br />
+                    <input type="radio" name="q21" value="option3" data-correct="true" /> Temperature<br />
+                  </div>
+
+                  <br />
+                  <br />
+                  <!-- Question 22 -->
+                  <div class="question">
+                    <h4>22) If a slab is kept in parallel plate capicitor, then electric feild intensity:</h4>
+                    <input type="radio" name="q22" value="option1" data-correct="true" /> Increases<br />
+                    <input type="radio" name="q22" value="option2" data-correct="false" /> Decreases<br />
+                    <input type="radio" name="q22" value="option3" data-correct="false" /> fluctutates with thickness<br />
+                  </div>
+
+                  <br />
+                  <br />
+                  <!-- Question 23 -->
+                  <div class="question">
+                    <h4>23) The caapacitance C is charged through a resistor R. The time constant of charging circuit is given by:</h4>
+                    <input type="radio" name="q23" value="option1" data-correct="true" /> RC<br />
+                    <input type="radio" name="q23" value="option2" data-correct="false" /> C/R<br />
+                    <input type="radio" name="q23" value="option3" data-correct="false" /> 1/RC<br />
+                  </div>
+
+                  <br />
+                  <br />
+                  <!-- Question 24 -->
+                  <div class="question">
+                    <h4>24) IF a wire of resistance R is stretched by 20%. What is change in resistance?</h4>
+                    <input type="radio" name="q24" value="option1" data-correct="false" /> 20%<br />
+                    <input type="radio" name="q24" value="option2" data-correct="false" /> 40%<br />
+                    <input type="radio" name="q24" value="option3" data-correct="true" /> 44%<br />
+                  </div>
+
+                  <br />
+                  <br />
+                  <!-- Question 25 -->
+                  <div class="question">
+                    <h4>25) Quark combinatiopn of proton is:</h4>
+                    <input type="radio" name="q25" value="option1" data-correct="true" /> uud<br />
+                    <input type="radio" name="q25" value="option2" data-correct="false" /> Uss<br />
+                    <input type="radio" name="q25" value="option3" data-correct="false" /> uus<br />
+                  </div>
+
+                  <br />
+
+                  <input type="button" name="submit" value="Submit" onclick="checkAnswers()" id="submit" class="btn btn-primary btn-user btn-block" />
+                </form>
+
+                <div id="result"></div>
+              </div>
+            </div>
+            <div id="loading-screen">
+              <div id="loading-content">
+                <h4>Mold Skill <sub>web</sub></h4>
+                <!-- Add loading animations or text here -->
+                <img src="https://i.postimg.cc/Y9xgZyjy/Loding-gif.gif" />
+                <h5>
+                  Loading..<br />
+                  Your MCQ-phy-1
+                </h5>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+
+        <!-- End of Footer -->
+      </div>
+
+      <!-- End of Content Wrapper -->
+    </div>
+    <footer class="sticky-footer">
+      <div>
+        <p class="copyright">
+          MOld SKILL <br />
+          Contact: contact@msmahato.com.np <br />
+          Adress: Bhaktapur-Nepal <br />
+          Copyright &copy;(2023-025)
+        </p>
+      </div>
+      <div class="container my-auto">
+        <div class="copyright text-center my-auto"></div>
+      </div>
+    </footer>
+
+    <!-- End of Page Wrapper -->
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded" href="#page-top">
+      <i class="fas fa-rocket"></i>
+    </a>
+
+    <!-- Scripted file -->
+    <!-- Importnat for collapse and nav -->
+    <script src="https://cdn.startbootstrap.com/sb-forms-latest.js"></script>
+    <script src="../js/script4.js"></script>
+
+    <!-- MIcs -->
+    <script src="../js/script1.js"></script>
+    <!-- STarting pop effect -->
+    <script src="../js/script5.js"></script>
+    <!-- For MCQ  -->
+    <script src="../js/for-mcq.js"></script>
+    <!-- Scripted file-->
+  </body>
+</html>
