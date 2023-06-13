@@ -15,7 +15,8 @@ function checkAnswers() {
       score++;
     } else if (selectedOption) {
       var correctOption = question.querySelector("input[data-correct='true']");
-      var correctAnswer = getOptionLabel(correctOption);
+      var correctLabel = correctOption.nextElementSibling;
+      var correctAnswer = getOptionLabel(correctLabel);
 
       var incorrectAnswerDiv = document.createElement("div");
       incorrectAnswerDiv.innerHTML = "Incorrect Answer. The correct answer is: " + correctAnswer;
@@ -25,7 +26,7 @@ function checkAnswers() {
     }
   }
 
-  resultDiv.innerHTML = "YOUR OBTAINED SCORE: " + score + "/" + questions.length;
+  resultDiv.innerHTML = "YOUR OBTAINED MARK: " + score + "/" + questions.length;
 
   // Disable the submit button
   document.getElementById("submit").disabled = true;
@@ -41,5 +42,5 @@ function getSelectedOption(options) {
 }
 
 function getOptionLabel(option) {
-  return option.nextSibling.textContent.trim();
+  return option.textContent.trim();
 }
